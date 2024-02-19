@@ -1,0 +1,74 @@
+name: transhop
+description: "A Flutter Project For skills assesment"
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+  provider: ^6.1.1
+  get_it: ^7.6.7
+
+  custom_navigation_bar: ^0.8.2
+  flutter_screenutil: ^5.9.0
+  
+  badges: ^3.1.2
+  flutter_svg: ^2.0.9
+  google_fonts: ^6.1.0
+  dotlottie_loader: ^0.0.3
+  lottie: ^3.0.0
+  cached_network_image: ^3.3.1
+  dio: ^5.4.0
+
+  sqflite: ^2.3.2
+  path: ^1.8.3
+
+  infinite_scroll_pagination: ^4.0.0
+  fluttertoast: ^8.1.1
+  internet_connection_checker_plus: ^2.2.0
+  flutter_native_splash: ^2.3.9
+
+dev_dependencies:
+  dependency_validator: ^3.0.0
+  build_runner:
+  flutter_gen_runner:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.1
+
+flutter_gen:
+  # Optional
+  output: lib/gen/
+  # Optional
+  line_length: 80
+
+  # Optional
+  integrations:
+    flutter_svg: false
+    flare_flutter: false
+    rive: false
+    lottie: false
+    
+  colors:
+    inputs:
+      - assets/color/colors.xml
+      - assets/color/order_status_color.xml
+      - assets/color/delevery_status_color.xml
+    outputs:
+      class_name: AppColors
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icons/
+    - assets/lottie/
+    - assets/images/

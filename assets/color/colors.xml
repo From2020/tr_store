@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<colors>
+  <color name="allPrimaryColor">#FFF9500A</color>
+  <color name="scaffoldColor">#FFFBFBFB</color>
+  <color name="primaryColor">#FF4D3E39</color>
+  <color name="activeColor">#FF326144</color>
+  <color name="debitHigheColor">#FFB7242A</color>
+  <color name="inactiveColor">#FFEDBB43</color>
+  <color name="linkColor">#FFF0E0C1</color>
+  <color name="loginBackground">#FFF4D68E</color>
+  <color name="warningColor">#FFB7242A</color>
+  <color name="ratingColor">#FFE65934</color>
+  <color name="bgColor">#FFFBFBFB</color>
+  <color name="headLine1Color">#FF4A4A4A</color>
+  <color name="headLine2Color">#FF131313</color>
+  <color name="disabledColor">#FF9B9B9B</color>
+  <color name="unselectedButtonTextColor">#FF2C303E</color>
+  <color name="creditHighliteColor">#FF709B72</color>
+  <color name="penIconColor">#FF00A7FF</color>
+  <color name="alertButtonColor">#FFFEFFFB</color>
+  <color name="white">#FFFFFFFF</color>
+  <color name="borderColor">#FFDDDDDD</color>
+  <color name="secondaryColor">#FF444242</color>
+  <color name="shadowText">#FFF1F2F7</color>
+  <color name="shadowText2">#FFB0B0B0</color>
+</colors>
